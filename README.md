@@ -7,8 +7,7 @@ Exemplo de implementação de teste para a busca binária em C++
 FROM ubuntu:latest
 MAINTAINER Leonan Saraiva
 WORKDIR /var/www
-RUN 
-    apt-get update && \
+RUN apt-get update && \
     apt-get -y install git && \
     git clone https://github.com/leonansaraiva/Busca_Binaria.git && \
     apt-get -y install g++ 
